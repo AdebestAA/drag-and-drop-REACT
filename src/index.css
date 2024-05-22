@@ -1,0 +1,79 @@
+.collective-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.top-header {
+
+  width: 50px;
+  margin: auto;
+}
+
+.todos-container {
+  margin: auto;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  gap: 2px;
+  max-width: 600px;
+}
+
+.each-status {
+
+  width: 50%;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.started {
+  border: 1px solid red;
+}
+
+.completed {
+  border: 1px solid green;
+}
+
+.started h1 {
+  border-bottom: 1px solid red;
+}
+
+.completed h1 {
+  border-bottom: 1px solid green;
+}
+
+.each-status-container {
+  padding: 2px;
+  height: 100%;
+}
+
+.each-todo-div {
+  border: 1px solid black;
+  margin-top: 1px;
+  align-items: center;
+  height: 50px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3px;
+  cursor: pointer;
+
+}
+
+.started span {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  text-transform: capitalize;
+  margin: 2px;
+  border-radius: 2px;
+}
+
+.completed span {
+  background-color: #029c02;
+  color: white;
+  padding: 2px 4px;
+  text-transform: capitalize;
+  margin: 2px;
+  border-radius: 2px;
+}

@@ -1,0 +1,22 @@
+export const data = [
+    {
+        id:1,
+        todo:"cook",
+        status:"started"
+    },
+    {
+        id:2,
+        todo:"sweep",
+        status:"started"
+    },
+    {
+        id:3,
+        todo:"clean",
+        status:"started"
+    },
+    {
+        id:4,
+        todo:"pray",
+        status:"started"
+    },
+]
